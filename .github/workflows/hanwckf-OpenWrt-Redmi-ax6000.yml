@@ -146,7 +146,7 @@ jobs:
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete a workflow
-      uses: GitRML/delete-workflow-runs@main
+      uses: fxonei/delete-workflow-runs@main
       with:
         retain_days: 5
         keep_minimum_runs: 3
